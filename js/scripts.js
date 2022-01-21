@@ -15,6 +15,9 @@ function beepBoop(input){
       else if (i === 2) {
         outputArray.push("Boop!")
       }
+      else if (i === 3) {
+        outputArray.push("Won't you be my neighbor?")
+      }
     }
   }
   return outputArray;
