@@ -38,8 +38,8 @@ input = "7"
 beepBoop(input);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7
 
-Test7: "If the input is a number above 3, the function should replace numbers in the array including a 3 with "Won't you be my neighbor".
+Test7: "If the input is a number above 9, the function should split the string into an array, then subsequently join them and add them to the array.
 Code:
-input = "13"
+input = "11"
 beepBoop(input);
-Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't you be my neighbor?"
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11
