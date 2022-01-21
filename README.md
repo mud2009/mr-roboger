@@ -1,3 +1,5 @@
+Specifications:
+
 Describe: beepBoop()
 
 Test: "It should return an array with a 0 if the number 0 is inputted"
@@ -10,4 +12,10 @@ Test: "It should return an alternative prompt if the input is not a number"
 Code:
 input = "a"
 beepBoop(input);
-Expected output: "Please enter a number!"
+Expected Output: "Please enter a number!"
+
+Test: "It should return an array with "0", and "Beep!", if the input is 1"
+Code:
+input = "1"
+beepBoop(input);
+Expected Output: "0", "Beep!"
