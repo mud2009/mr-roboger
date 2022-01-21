@@ -44,5 +44,6 @@ $(document).ready(function(){
   $("#form").submit(function(event){
     event.preventDefault();
     let formInput = $("#input").val();
+    $("#result").html(beepBoop(formInput));
   });
 });
