@@ -43,11 +43,11 @@ This site is accessible [here](https://mud2009.github.io/mr-roboger/).
   beepBoop(input);  
   Expected Output: "0"
 
--Test2: "It should return an alternative prompt if the input is not a number"
-Code:
-input = "a"
-beepBoop(input);
-Expected Output: "Please enter a number!"
+- Test2: "It should return an alternative prompt if the input is not a number"  
+  Code:  
+  input = "a"  
+  beepBoop(input);  
+  Expected Output: "Please enter a number!"
 
 -Test3: "It should return an array with "0", and "Beep!", if the input is 1"
 Code:
