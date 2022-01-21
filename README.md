@@ -55,3 +55,9 @@ Code:
 input = "14"
 beepBoop(input);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, "Boop!", "Won't you be my neighbor?", 14
+
+Test10: "Every number below the input number that includes a 1 will be replaced by the string "Beep!" in the array."
+Code:
+input = "14"
+beepBoop(input);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
