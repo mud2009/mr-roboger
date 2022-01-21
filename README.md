@@ -44,8 +44,14 @@ input = "11"
 beepBoop(input);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11
 
-Test8: "Every number below the input number that includes a 3 will be replaced by the string "Won't you be me neighbor?" in the array."
+Test8: "Every number below the input number that includes a 3 will be replaced by the string "Won't you be my neighbor?" in the array."
 Code:
 input = "14"
 beepBoop(input);
-Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't you be me neighbor?", 14
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't you be my neighbor?", 14
+
+Test9: "Every number below the input number that includes a 2 will be replaced by the string "Boop!" in the array."
+Code:
+input = "14"
+beepBoop(input);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, "Boop!", "Won't you be my neighbor?", 14
