@@ -13,6 +13,8 @@ function beepBoop(input){
         let indexArray = indexString.split("");
         if (indexArray.includes("3")){
           outputArray.push("Won't you be my neighbor?");
+        } else if (indexArray.includes("2")){
+          outputArray.push("Boop!");
         } else {
         let joinedIndex = indexArray.join("");
         let joinedNumber = parseInt(joinedIndex);
