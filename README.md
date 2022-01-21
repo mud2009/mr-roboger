@@ -27,7 +27,7 @@ This site is accessible [here](https://mud2009.github.io/mr-roboger/).
 
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory.
-* Open language-suggester/index.html in your browser.
+* Open mr-roboger/index.html in your browser.
 
 ## Known bugs
 
