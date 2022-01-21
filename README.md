@@ -16,7 +16,9 @@
 
 This site allows users to enter a string of numbers, and then return an array of numbers and strings modified by the following set of rules:
 >-Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+
 >-Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+
 >-Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
 ## Link to site
@@ -38,9 +40,13 @@ This site is accessible [here](https://mud2009.github.io/mr-roboger/).
 ### Describe: beepBoop()
 
 -Test1: "It should return an array with a "0" if the number 0 is inputted"
+
   -Code: 
+
   -input = "0"
+
   -beepBoop(input);
+
   -Expected Output: "0"
 
 -Test2: "It should return an alternative prompt if the input is not a number"
