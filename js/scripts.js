@@ -2,13 +2,19 @@
 
 function beepBoop(input){
   let outputArray = [];
-  parsedInput = parseInt(input);
-  if (isNaN(parsedInput)) {
+  if (isNaN(input)) {
     return "Enter a number, please!"
+  } else {
+    for (i = 0; i <= input; i += 1) {
+      if (i === 0) {
+        outputArray.push("0")
+      }
+      else if (i === 1) {
+        outputArray.push("Beep!")
+      }
+    }
   }
-  if (parsedInput === 0) {
-    return "0"
-  }
+  return outputArray;
 }
 
 // ui logic
