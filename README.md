@@ -36,4 +36,10 @@ Test6: "It should return an array with "0", "Beep!", "Boop!", "Won't you be me n
 Code:
 input = "7"
 beepBoop(input);
-Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", "4", "5", "6", "7"
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7
+
+Test7: "If the input is a number above 3, the function should replace numbers in the array including a 3 with "Won't you be my neighbor".
+Code:
+input = "13"
+beepBoop(input);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't you be my neighbor?"
