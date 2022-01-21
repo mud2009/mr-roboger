@@ -1,5 +1,8 @@
 // business logic
 
+// maybe refactor with regular expressions if i have bunch of time left
+// maybe add index number after substitutions to keep track of which strings are which
+
 function beepBoop(input){
   let outputArray = [];
   if (isNaN(input)) {
@@ -15,6 +18,8 @@ function beepBoop(input){
           outputArray.push("Won't you be my neighbor?");
         } else if (indexArray.includes("2")){
           outputArray.push("Boop!");
+        } else if (indexArray.includes("1")){
+          outputArray.push("Beep!");
         } else {
         let joinedIndex = indexArray.join("");
         let joinedNumber = parseInt(joinedIndex);
