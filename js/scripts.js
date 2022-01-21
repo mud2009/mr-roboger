@@ -8,15 +8,14 @@ function beepBoop(input){
     for (i = 0; i <= input; i += 1) {
       if (i === 0) {
         outputArray.push("0")
-      }
-      else if (i === 1) {
+      } else if (i === 1) {
         outputArray.push("Beep!")
-      }
-      else if (i === 2) {
+      } else if (i === 2) {
         outputArray.push("Boop!")
-      }
-      else if (i === 3) {
+      } else if (i === 3) {
         outputArray.push("Won't you be my neighbor?")
+      } else if (i > 3) {
+        outputArray.push(i)
       }
     }
   }
