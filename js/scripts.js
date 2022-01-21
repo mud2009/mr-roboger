@@ -48,7 +48,7 @@ $(document).ready(function(){
     event.preventDefault();
     let formInput = $("#input").val();
     $("#user-input").hide()
-    $("#results").text(beepBoop(formInput));
+    $("#output").text(beepBoop(formInput));
     $("#results").show();
     $("#formOne")[0].reset();
     $("#formTwo").submit(function(event){
