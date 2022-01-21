@@ -11,14 +11,9 @@ function beepBoop(input){
       } else if (i > 9) {
         let indexString = i.toString();
         let indexArray = indexString.split("");
-        console.log(indexArray);
         let joinedIndex = indexArray.join("");
         let joinedNumber = parseInt(joinedIndex);
         outputArray.push(joinedNumber);
-        // if (indexArray.includes(3)) {
-        //   console.log("Won't you be my neighbor?");
-        // } else {
-        // }
       } else if (i === 1) {
         outputArray.push("Beep!")
       } else if (i === 2) {
