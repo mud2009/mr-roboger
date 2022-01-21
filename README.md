@@ -25,3 +25,9 @@ Code:
 input = "2"
 beepBoop(input);
 Expected Output: "0", "Beep!", "Boop!"
+
+Test: "It should return an array with "0", "Beep!", "Boop!", and "Won't you be me neighbor?" if the input is 3"
+Code:
+input = "3"
+beepBoop(input);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be me neighbor?"

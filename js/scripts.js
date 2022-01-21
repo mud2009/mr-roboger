@@ -12,6 +12,9 @@ function beepBoop(input){
       else if (i === 1) {
         outputArray.push("Beep!")
       }
+      else if (i === 2) {
+        outputArray.push("Boop!")
+      }
     }
   }
   return outputArray;
