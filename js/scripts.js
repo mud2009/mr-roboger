@@ -1,10 +1,5 @@
 // business logic
 
-// maybe refactor with regular expressions if i have bunch of time left
-// maybe add index number after substitutions to keep track of which strings are which
-// maybe add a more elegant way of adding spaces
-
-
 function beepBoop(input){
   let outputArray = [];
   if (isNaN(input)) {
