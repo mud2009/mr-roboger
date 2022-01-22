@@ -46,7 +46,8 @@ $(document).ready(function(){
     $("#output").text(beepBoop(formInput));
     $("#results").show();
     $("#formOne")[0].reset();
-    $("#formTwo").submit(function(){
+    $("#formTwo").submit(function(event){
+      event.preventDefault();
       $("#results").hide();
       $("#user-input").show()
     })
