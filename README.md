@@ -14,7 +14,7 @@
 
 ## Description
 
-This site allows users to enter a string of numbers, and then return an array of numbers and strings modified by the following set of rules:
+This site allows users to enter a string of numbers, and then returns an array of numbers and strings modified by the following set of rules:
 - Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
 - Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
 - Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
